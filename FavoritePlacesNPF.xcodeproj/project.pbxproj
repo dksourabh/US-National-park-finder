@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70317E1F1CCBD0DD0061B672 /* ParkTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70317E1E1CCBD0DD0061B672 /* ParkTableVC.swift */; };
+		70317E211CCC16A70061B672 /* ParkTableDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70317E201CCC16A70061B672 /* ParkTableDetailVC.swift */; };
+		70317E231CCC233D0061B672 /* ZoomingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70317E221CCC233D0061B672 /* ZoomingProtocol.swift */; };
+		7038CE4A1CCEC9FE00A559AA /* backpack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7038CE471CCEC9FE00A559AA /* backpack.png */; };
+		7038CE4B1CCEC9FE00A559AA /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7038CE481CCEC9FE00A559AA /* crown.png */; };
+		7038CE4C1CCEC9FE00A559AA /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7038CE491CCEC9FE00A559AA /* facebook.png */; };
+		7038CE4E1CCECAFD00A559AA /* glacier-national-park-hidden-lake_89495_600x450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7038CE4D1CCECAFD00A559AA /* glacier-national-park-hidden-lake_89495_600x450.jpg */; };
 		704A38021CAC0D5600B66BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A38011CAC0D5600B66BE8 /* AppDelegate.swift */; };
-		704A38041CAC0D5600B66BE8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A38031CAC0D5600B66BE8 /* FirstViewController.swift */; };
-		704A38061CAC0D5600B66BE8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A38051CAC0D5600B66BE8 /* SecondViewController.swift */; };
 		704A38091CAC0D5600B66BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704A38071CAC0D5600B66BE8 /* Main.storyboard */; };
 		704A380B1CAC0D5600B66BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704A380A1CAC0D5600B66BE8 /* Assets.xcassets */; };
 		704A380E1CAC0D5600B66BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704A380C1CAC0D5600B66BE8 /* LaunchScreen.storyboard */; };
+		704A38171CAC0DA600B66BE8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704A38161CAC0DA600B66BE8 /* CoreLocation.framework */; };
+		704A38191CAC0DB200B66BE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704A38181CAC0DB200B66BE8 /* MapKit.framework */; };
+		704A38201CAC0E1A00B66BE8 /* 72-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 704A381B1CAC0E1A00B66BE8 /* 72-pin.png */; };
+		704A382D1CAC0F8D00B66BE8 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A382B1CAC0F8D00B66BE8 /* Park.swift */; };
+		704A382E1CAC0F8D00B66BE8 /* Parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A382C1CAC0F8D00B66BE8 /* Parks.swift */; };
+		704A38441CAC0FC000B66BE8 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A38431CAC0FC000B66BE8 /* MapVC.swift */; };
+		70A605681CCDC15D00032356 /* FavoriteTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A605671CCDC15D00032356 /* FavoriteTableVC.swift */; };
+		70D387E91CAEAFA900B8C5CF /* NorthPole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D387E81CAEAFA900B8C5CF /* NorthPole.swift */; };
+		70D881271CB77A9F00915ED4 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D881261CB77A9F00915ED4 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		704A37FE1CAC0D5600B66BE8 /* FavoritePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70317E1E1CCBD0DD0061B672 /* ParkTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkTableVC.swift; sourceTree = "<group>"; };
+		70317E201CCC16A70061B672 /* ParkTableDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkTableDetailVC.swift; sourceTree = "<group>"; };
+		70317E221CCC233D0061B672 /* ZoomingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomingProtocol.swift; sourceTree = "<group>"; };
+		7038CE471CCEC9FE00A559AA /* backpack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backpack.png; sourceTree = "<group>"; };
+		7038CE481CCEC9FE00A559AA /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		7038CE491CCEC9FE00A559AA /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		7038CE4D1CCECAFD00A559AA /* glacier-national-park-hidden-lake_89495_600x450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "glacier-national-park-hidden-lake_89495_600x450.jpg"; sourceTree = "<group>"; };
+		704A37FE1CAC0D5600B66BE8 /* FavoritePlacesNPF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePlacesNPF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704A38011CAC0D5600B66BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		704A38031CAC0D5600B66BE8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		704A38051CAC0D5600B66BE8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		704A38081CAC0D5600B66BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		704A380A1CAC0D5600B66BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704A380D1CAC0D5600B66BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704A380F1CAC0D5600B66BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704A38161CAC0DA600B66BE8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		704A38181CAC0DB200B66BE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		704A381B1CAC0E1A00B66BE8 /* 72-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72-pin.png"; sourceTree = "<group>"; };
+		704A382B1CAC0F8D00B66BE8 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		704A382C1CAC0F8D00B66BE8 /* Parks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parks.swift; sourceTree = "<group>"; };
+		704A38431CAC0FC000B66BE8 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		70A605671CCDC15D00032356 /* FavoriteTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableVC.swift; sourceTree = "<group>"; };
+		70D387E81CAEAFA900B8C5CF /* NorthPole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorthPole.swift; sourceTree = "<group>"; };
+		70D881261CB77A9F00915ED4 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704A38191CAC0DB200B66BE8 /* MapKit.framework in Frameworks */,
+				704A38171CAC0DA600B66BE8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +78,7 @@
 		704A37FF1CAC0D5600B66BE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				704A37FE1CAC0D5600B66BE8 /* FavoritePlaces.app */,
+				704A37FE1CAC0D5600B66BE8 /* FavoritePlacesNPF.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +86,12 @@
 		704A38001CAC0D5600B66BE8 /* FavoritePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				704A382F1CAC0F9400B66BE8 /* View Controllers */,
+				704A382A1CAC0EF500B66BE8 /* Models */,
+				704A381A1CAC0DDF00B66BE8 /* Resources */,
+				704A38151CAC0D6200B66BE8 /* Frameworks */,
 				704A38011CAC0D5600B66BE8 /* AppDelegate.swift */,
-				704A38031CAC0D5600B66BE8 /* FirstViewController.swift */,
-				704A38051CAC0D5600B66BE8 /* SecondViewController.swift */,
+				70D881261CB77A9F00915ED4 /* data.plist */,
 				704A38071CAC0D5600B66BE8 /* Main.storyboard */,
 				704A380A1CAC0D5600B66BE8 /* Assets.xcassets */,
 				704A380C1CAC0D5600B66BE8 /* LaunchScreen.storyboard */,
@@ -67,12 +100,55 @@
 			path = FavoritePlaces;
 			sourceTree = "<group>";
 		};
+		704A38151CAC0D6200B66BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704A38181CAC0DB200B66BE8 /* MapKit.framework */,
+				704A38161CAC0DA600B66BE8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		704A381A1CAC0DDF00B66BE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7038CE4D1CCECAFD00A559AA /* glacier-national-park-hidden-lake_89495_600x450.jpg */,
+				7038CE471CCEC9FE00A559AA /* backpack.png */,
+				7038CE481CCEC9FE00A559AA /* crown.png */,
+				7038CE491CCEC9FE00A559AA /* facebook.png */,
+				704A381B1CAC0E1A00B66BE8 /* 72-pin.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		704A382A1CAC0EF500B66BE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				704A382B1CAC0F8D00B66BE8 /* Park.swift */,
+				704A382C1CAC0F8D00B66BE8 /* Parks.swift */,
+				70D387E81CAEAFA900B8C5CF /* NorthPole.swift */,
+				70317E221CCC233D0061B672 /* ZoomingProtocol.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		704A382F1CAC0F9400B66BE8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				704A38431CAC0FC000B66BE8 /* MapVC.swift */,
+				70317E1E1CCBD0DD0061B672 /* ParkTableVC.swift */,
+				70317E201CCC16A70061B672 /* ParkTableDetailVC.swift */,
+				70A605671CCDC15D00032356 /* FavoriteTableVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		704A37FD1CAC0D5600B66BE8 /* FavoritePlaces */ = {
+		704A37FD1CAC0D5600B66BE8 /* FavoritePlacesNPF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 704A38121CAC0D5600B66BE8 /* Build configuration list for PBXNativeTarget "FavoritePlaces" */;
+			buildConfigurationList = 704A38121CAC0D5600B66BE8 /* Build configuration list for PBXNativeTarget "FavoritePlacesNPF" */;
 			buildPhases = (
 				704A37FA1CAC0D5600B66BE8 /* Sources */,
 				704A37FB1CAC0D5600B66BE8 /* Frameworks */,
@@ -82,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = FavoritePlaces;
+			name = FavoritePlacesNPF;
 			productName = FavoritePlaces;
-			productReference = 704A37FE1CAC0D5600B66BE8 /* FavoritePlaces.app */;
+			productReference = 704A37FE1CAC0D5600B66BE8 /* FavoritePlacesNPF.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 704A37F91CAC0D5600B66BE8 /* Build configuration list for PBXProject "FavoritePlaces" */;
+			buildConfigurationList = 704A37F91CAC0D5600B66BE8 /* Build configuration list for PBXProject "FavoritePlacesNPF" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				704A37FD1CAC0D5600B66BE8 /* FavoritePlaces */,
+				704A37FD1CAC0D5600B66BE8 /* FavoritePlacesNPF */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +203,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				704A380E1CAC0D5600B66BE8 /* LaunchScreen.storyboard in Resources */,
+				7038CE4C1CCEC9FE00A559AA /* facebook.png in Resources */,
+				7038CE4E1CCECAFD00A559AA /* glacier-national-park-hidden-lake_89495_600x450.jpg in Resources */,
 				704A380B1CAC0D5600B66BE8 /* Assets.xcassets in Resources */,
+				704A38201CAC0E1A00B66BE8 /* 72-pin.png in Resources */,
+				7038CE4A1CCEC9FE00A559AA /* backpack.png in Resources */,
+				70D881271CB77A9F00915ED4 /* data.plist in Resources */,
+				7038CE4B1CCEC9FE00A559AA /* crown.png in Resources */,
 				704A38091CAC0D5600B66BE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +221,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704A38061CAC0D5600B66BE8 /* SecondViewController.swift in Sources */,
+				704A38441CAC0FC000B66BE8 /* MapVC.swift in Sources */,
+				70317E1F1CCBD0DD0061B672 /* ParkTableVC.swift in Sources */,
+				70D387E91CAEAFA900B8C5CF /* NorthPole.swift in Sources */,
 				704A38021CAC0D5600B66BE8 /* AppDelegate.swift in Sources */,
-				704A38041CAC0D5600B66BE8 /* FirstViewController.swift in Sources */,
+				704A382E1CAC0F8D00B66BE8 /* Parks.swift in Sources */,
+				70317E231CCC233D0061B672 /* ZoomingProtocol.swift in Sources */,
+				704A382D1CAC0F8D00B66BE8 /* Park.swift in Sources */,
+				70317E211CCC16A70061B672 /* ParkTableDetailVC.swift in Sources */,
+				70A605681CCDC15D00032356 /* FavoriteTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +341,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FavoritePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comSourabh.FavoritePlaces;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FavoritePlacesNPF;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,16 +354,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FavoritePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comSourabh.FavoritePlaces;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FavoritePlacesNPF;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		704A37F91CAC0D5600B66BE8 /* Build configuration list for PBXProject "FavoritePlaces" */ = {
+		704A37F91CAC0D5600B66BE8 /* Build configuration list for PBXProject "FavoritePlacesNPF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				704A38101CAC0D5600B66BE8 /* Debug */,
@@ -282,13 +374,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		704A38121CAC0D5600B66BE8 /* Build configuration list for PBXNativeTarget "FavoritePlaces" */ = {
+		704A38121CAC0D5600B66BE8 /* Build configuration list for PBXNativeTarget "FavoritePlacesNPF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				704A38131CAC0D5600B66BE8 /* Debug */,
 				704A38141CAC0D5600B66BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

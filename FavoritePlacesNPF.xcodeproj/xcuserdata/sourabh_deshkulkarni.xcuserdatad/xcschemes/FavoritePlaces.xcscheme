@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "704A37FD1CAC0D5600B66BE8"
-               BuildableName = "FavoritePlaces.app"
-               BlueprintName = "FavoritePlaces"
-               ReferencedContainer = "container:FavoritePlaces.xcodeproj">
+               BuildableName = "FavoritePlacesNPF.app"
+               BlueprintName = "FavoritePlacesNPF"
+               ReferencedContainer = "container:FavoritePlacesNPF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "704A37FD1CAC0D5600B66BE8"
-            BuildableName = "FavoritePlaces.app"
-            BlueprintName = "FavoritePlaces"
-            ReferencedContainer = "container:FavoritePlaces.xcodeproj">
+            BuildableName = "FavoritePlacesNPF.app"
+            BlueprintName = "FavoritePlacesNPF"
+            ReferencedContainer = "container:FavoritePlacesNPF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "704A37FD1CAC0D5600B66BE8"
-            BuildableName = "FavoritePlaces.app"
-            BlueprintName = "FavoritePlaces"
-            ReferencedContainer = "container:FavoritePlaces.xcodeproj">
+            BuildableName = "FavoritePlacesNPF.app"
+            BlueprintName = "FavoritePlacesNPF"
+            ReferencedContainer = "container:FavoritePlacesNPF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "704A37FD1CAC0D5600B66BE8"
-            BuildableName = "FavoritePlaces.app"
-            BlueprintName = "FavoritePlaces"
-            ReferencedContainer = "container:FavoritePlaces.xcodeproj">
+            BuildableName = "FavoritePlacesNPF.app"
+            BlueprintName = "FavoritePlacesNPF"
+            ReferencedContainer = "container:FavoritePlacesNPF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

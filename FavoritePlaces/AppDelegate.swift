@@ -7,15 +7,85 @@
 //
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var tabBarController:UITabBarController?
+    var parks : [Park] = []
+    
+    
+   
+    
+    func loadData(){
 
+        
+     
+        
+        if let path = NSBundle.mainBundle().pathForResource("data", ofType: "plist"){
+          if let tempDict = NSDictionary(contentsOfFile: path){
+            let tempArray = (tempDict.valueForKey("parks") as! NSArray) as Array
+            for dict in tempArray {
+                
+                let parkName = dict["parkName"]! as! String
+                
+                let parkLocation = dict["parkLocation"]! as! String
+                
+                let latitude = (dict["latitude"]! as! NSString).doubleValue
+                
+                let longitude = (dict["longitude"]! as! NSString).doubleValue
+                let area = dict["area"]! as! String
+                let imageLink = dict["imageLink"]! as! String
+                let dateFormed = dict["dateFormed"]! as! String
+                let link = dict["link"]! as! String
+                let description = dict["description"]! as! String
+                let imageName = dict["imageName"]! as! String
+                let imageSize = dict["imageSize"]! as! String
+                let imageType = dict["imageType"]! as! String
+                //let distanceFromCurrentLocation = 0.0
+                
+              let location = CLLocation(latitude: latitude, longitude: longitude)
+//               // let parkLocation = park.getLocation()
+//                let distance = myLocation!.distanceFromLocation(location) / 1000
+
+                
+                let p = Park(parkName: parkName, parkLocation: parkLocation, dateFormed: dateFormed, area: area,imageLink: imageLink,  location: location,  parkDescription: description,link: link,imageName:imageName,imageSize:imageSize,imageType:imageType,distanceFromCurrentLocation:0.0)
+                parks.append(p)
+                }
+            }
+            
+        }
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        loadData()
+
+
+       
+        tabBarController = self.window?.rootViewController as?
+        UITabBarController
+        let mapVC = tabBarController!.viewControllers![0] as! MapVC
+        mapVC.parks = parks
+        
+        
+        let navVC = tabBarController!.viewControllers![1] as! UINavigationController
+        let tableVC = navVC.viewControllers[0] as! ParkTableVC
+        
+        
+        tableVC.parks = parks
+        tableVC.mapVC = mapVC
+        
+        let navVCOne = tabBarController!.viewControllers![3] as! UINavigationController
+        let tableVCOne = navVCOne.viewControllers[0] as! FavoriteTableVC
+        
+        
+        tableVCOne.parks = parks
+        tableVCOne.mapVC = mapVC
+        
+        
         return true
     }
 

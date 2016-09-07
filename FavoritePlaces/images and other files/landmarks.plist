@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>landmarks</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Mt Rushmore</string>
+			<key>state</key>
+			<string>South Dakota</string>
+			<key>latitude</key>
+			<real>43.8789472</real>
+			<key>longitude</key>
+			<real>-103.459825</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hoover Dam</string>
+			<key>state</key>
+			<string>Arizona</string>
+			<key>latitude</key>
+			<real>36.01556</real>
+			<key>longitude</key>
+			<real>-114.73778</real>
+		</dict>
+	</array>
+</dict>
+</plist>

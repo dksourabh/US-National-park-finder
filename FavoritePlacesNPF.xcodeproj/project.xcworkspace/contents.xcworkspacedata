@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FavoritePlaces.xcodeproj">
+      location = "self:/Users/sourabh_deshkulkarni/Desktop/FavoritePlaces/FavoritePlacesNPF.xcodeproj">
    </FileRef>
 </Workspace>
